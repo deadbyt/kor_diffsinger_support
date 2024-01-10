@@ -2461,7 +2461,7 @@ entries:
 - {grapheme: "うぅ", phonemes: [w, eu]}
 - {grapheme: "うぇ", phonemes: [w, e]}
 - {grapheme: "うぉ", phonemes: [w, o]}
-- {grapheme: "え", phonemes: [eh]}
+- {grapheme: "え", phonemes: [e]}
 - {grapheme: "お", phonemes: [o]}
 - {grapheme: "か", phonemes: [k, a]}
 - {grapheme: "が", phonemes: [g, a]}
@@ -2633,7 +2633,7 @@ entries:
 - {grapheme: "うぅ・", phonemes: [w, eu, q]}
 - {grapheme: "うぇ・", phonemes: [w, e, q]}
 - {grapheme: "うぉ・", phonemes: [w, o, q]}
-- {grapheme: "え・", phonemes: [eh, q]}
+- {grapheme: "え・", phonemes: [e, q]}
 - {grapheme: "お・", phonemes: [o, q]}
 - {grapheme: "か・", phonemes: [k, a, q]}
 - {grapheme: "が・", phonemes: [g, a, q]}
@@ -2797,7 +2797,7 @@ entries:
 - {grapheme: "・あ", phonemes: [q, a]}
 - {grapheme: "・い", phonemes: [q, i]}
 - {grapheme: "・う", phonemes: [q, eu]}
-- {grapheme: "・え", phonemes: [q, eh]}
+- {grapheme: "・え", phonemes: [q, e]}
 - {grapheme: "・お", phonemes: [q, o]}
 - {grapheme: "・を", phonemes: [q, o]}
 - {grapheme: "・ん", phonemes: [q, n]}
@@ -2971,7 +2971,7 @@ entries:
 - {grapheme: "うぅっ", phonemes: [w, eu, cl]}
 - {grapheme: "うぇっ", phonemes: [w, e, cl]}
 - {grapheme: "うぉっ", phonemes: [w, o, cl]}
-- {grapheme: "えっ", phonemes: [eh, cl]}
+- {grapheme: "えっ", phonemes: [e, cl]}
 - {grapheme: "おっ", phonemes: [o, cl]}
 - {grapheme: "かっ", phonemes: [k, a, cl]}
 - {grapheme: "がっ", phonemes: [g, a, cl]}
