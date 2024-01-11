@@ -153,7 +153,7 @@
 | :--- | :--- |
 | AP | 호흡(Breath) |
 | SP | 침묵(Silence) |
-| cl | 일본어의 자음 확장형「っ」(Gemination, like Japanese 「っ) |
+| cl | 일본어의 자음 확장형「っ」(Gemination, like Japanese 「っ」) |
 | vf | 보컬 프라이(Vocal Fry) |
 | axh | 음성 호흡 또는 양식화된 호흡(Voiced or Stylized End-Breath)|
 | exh | 끝 호흡(End-Breath)|
