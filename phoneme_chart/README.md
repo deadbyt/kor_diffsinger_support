@@ -125,6 +125,28 @@
 | z | "zoo" | \[z uw\] | 유성 "ㅆ" |
 | zh | "genre" | \[zh aa n r ah\] | 유성 "ㅅ" |
 
+### 참고 사항(Notes)
+
+- \[i\] & \[iy\], \[u\] & \[uw\]는 별개의 소리로 취급됩니다. 반드시 분리해야 하는 것은 아니지만, 분리하는 논리는 두 가지입니다.
+  * 첫 번째 이유는 영어와 한국어 데이터셋을 보다 깔끔하게 구분하여, 충분한 데이터가 주어지면 DiffSinger가 언어별 음소에 대한 특정 조음을 깔끔하게 구분할 수 있도록 하기 위해서입니다. 예를 들어 영어에서는 \[k\]가 문맥에 따라 흡음과 비흡음으로 발음되는 반면, 한국어에서는 \[k\]만 흡음으로 발음되고 \[kk\]는 비흡음으로 발음됩니다. 영어와 한국어의 모음 세트가 완전히 다르기 때문에 영어 모음 앞의 \[k\]는 문맥에 따라 흡기되는 반면, 한국어 모음 앞의 \[k\]는 항상 흡기된다는 것을 DiffSinger가 알 수 있습니다.
+  * 두 번째 이유는 영어에서 \[iy\]와 \[uw\]의 발음 때문입니다. 영어에서 화자들은 이 모음을 이중모음처럼 발음하여 종종 "/ɪi/"와 "/ʊu/"처럼 들리는 경우가 많습니다. 간단한 /i/ 및 /u/도 영어에서 똑같이 유효하므로 이러한 소리를 발음하는 데 필수적이거나 필수적인 것은 아닙니다. 그러나 이는 일반적인 행동이며 한국어 발음의 악센트에 부정적인 영향을 미칠 수 있습니다. 또한 일부 한국어->영어 사용자들은 한국어 \[u\]와 \[eu\]를 무분별하게 영어 \[uw\]로 사용하는 경향이 있습니다. \[uw\]를 고유 음소로 만들면 DiffSinger가 이러한 특성을 고려하는 데 도움이 될 것입니다.
+- \[i\] & \[iy\] 및 \[u\] & \[uw\]의 발음이 일관되고 자음 조음에 문제가 발생하지 않는다고 확신하는 경우 레이블을 지정하는 동안 안전하게 병합할 수 있습니다. 이를 고려하기 위해 dsdict-en.yaml 파일 하단에 다음 코드 줄을 추가하여 \[DIFFS EN\] Phonemizer에서 ARPAbet을 준수하도록 할 수 있습니다.
+  ```
+  replacements:
+  {from: iy, to: i}
+  {from: uw, to: u}
+  ```
+
+- \[i\] & \[iy\] and \[u\] & \[uw\] are treated as separate sounds. It is not absolutely essential to separate them, but the logic behind doing so is twofold.
+  * The first reason is so that the English and Korean datasets are more neatly divided, that way, given enough data, DiffSinger should neatly be able to discern specific articulation for language-specific phonemes. For example, in English, \[k\] is pronounced as both aspirated and unaspirated depending on the context, whereas in Korean, only \[k\] is aspirated, whereas \[kk\] is unaspirated. Allowing English and Korean to have completely different sets of vowels allows DiffSinger to know that \[k\] preceding an English vowel is contextually aspirated, whereas \[k\] preceding a Korean vowel is always aspirated.
+  * The second reason is due to the articulation of \[iy\] and \[uw\] in English. Many times in English, speakers diphthongize these vowels, to where they often sound more like /ɪi/ and /ʊu/. This is not a requirement, or essential to pronouncing these sounds, as simple /i/ and /u/ are equally valid for English. However, it is a common behavior, and may affect the accent for Korean pronunciation negatively. In addition, some Korean->English speakers sometimes tend to use both the Korean \[u\] and \[eu\] as English \[uw\] indiscriminately, so making \[uw\] its own phoneme should help account for such traits.
+- If you are confident that the pronunciation of \[i\] & \[iy\] and \[u\] & \[uw\] will be consistent and not cause problems with consonant articulation, then you can safely merge them while labeling. To account for this, you can add the following lines to the bottom of the dsdict-en.yaml file to help it conform to ARPAbet in the \[DIFFS EN\] Phonemizer.
+  ```
+  replacements:
+  {from: iy, to: i}
+  {from: uw, to: u}
+  ```
+
 ## 기타 음소(Misc. Phonemes)
 
 | 음소(Phoneme) | 설명(Description) |
