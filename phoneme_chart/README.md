@@ -115,3 +115,13 @@
 | y | "you" | \[y uw\] | "야", "예", "요", "유", "여" 의 첫소리와 같이 |
 | z | "zoo" | \[z uw\] | 유성 "ㅆ" |
 | zh | "genre" | \[zh aa n r ah\] | 유성 "ㅅ" |
+
+## 기타 음소(Misc. Phonemes)
+
+| 음소(Phoneme) | 설명(Description) |
+| :--- | :--- |
+| AP | 호흡(Breath) |
+| SP | 침묵(Silence) |
+| cl | 일본어의 자음 확장형 「っ」( Gemination, like Japanese 「っ」) |
+| axh | 음성 호흡 또는 양식화된 호흡(Voiced or Stylized End-Breath)|
+| exh | 끝 호흡(End-Breath)|
