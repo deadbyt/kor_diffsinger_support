@@ -75,7 +75,7 @@
 | 음소(Phoneme) | 단어 예제(Example Word) | 트랜스크립션(Transcription) | 대략적인 한글 표기법(Closest Korean Equivalent) |
 | :--- | :--- | :--- | :--- |
 | aa | "job" | \[jh aa b\] | ㅏ |
-| ae | "have" | \[hh ae v\] | "ㅏ" 와 "ㅔ" 사이 |
+| ae | "have" | \[hh ae v\] | "ㅏ" 와 "ㅐ" 사이 |
 | ah | "cup" | \[k ah p\] | ㅓ |
 | ao | "law" | \[l ao\] | ㅗ |
 | eh | "leg" | \[l eh g\] | "ㅔ" 또는"ㅐ" |
