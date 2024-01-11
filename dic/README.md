@@ -7,5 +7,5 @@
 
 - The Korean portion of this dictionary is intended for use with OpenUtau's \[DIFFS\] or \[DIFFS EN\] phonemizers. This dictionary is a modified version of Cadlaxa's Korean dictionary, originally created for English ARPAsing sound libraries. It only supports Hangul input and does not support Romaja. All dictionaries also support Japanese hiragana input, with the Korean-English dictionary having slightly improved Japanese pronunciation.
 
-- The Korean-English dictionary also supports for Mandarin Chinese Pinyin, because the combination of English and Korean phonemes can be used to make a rudimentary approximation of most Chinese syllables. This is only possible with the \[DIFFS\] lyrics parser because the \[DIFFS EN\] lyrics parser causes conflicts with Chinese Pinyin.
+- The Korean-English dictionary also supports Pinyin input for Mandarin Chinese, because the combination of English and Korean phonemes can be used to make a rudimentary approximation of most Chinese syllables. This is only possible with the \[DIFFS\] lyrics parser because the \[DIFFS EN\] lyrics parser causes conflicts with Chinese Pinyin.
   
