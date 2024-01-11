@@ -114,7 +114,7 @@
 | ng | "bring" | \[b r ih ng\] | ㅇ |
 | q | "uh-oh" | \[ah q ow\] | 끊음 |
 | p | "poor" | \[p uh r\] | ㅍ |
-| r | "race" | \[r ey s\] |  |
+| r | "race" | \[r ey s\] | (나중에 작성 예정 ;w; ) |
 | s | "sale" | \[s ey l\] | ㅆ |
 | sh | "share" | \[sh eh r\] | ㅅ |
 | t | "town" | \[t aw n\] | ㅆ |
