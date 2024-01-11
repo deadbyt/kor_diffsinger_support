@@ -57,6 +57,15 @@
 | ㅢ			| wx | \[wx i\]                         	|
 | "끊음"(Glottal Stop)	| q | \[q a\], \[q e\], \[q eo\], etc.		|
 
+### 참고 사항(Notes)
+
+- \[y a\]와 \[ia\]와 같은 조합을 구분하는 이유는 주로 타이밍을 맞추기 위해서입니다. 이 형식은 글라이딩 음소를 지원하는 가사 구문 분석기가 없다고 가정하므로 대부분의 시나리오에서 \[ia\]가 사용됩니다. 그러나 "야"와 같은 문자가 나타날 때는 음표의 길이가 시작되기 전에 \[ia\]의 "i" 부분이 나와야 합니다. 따라서 해당 한글에 \[ia\] 대신 \[y a\]가 사용되는 이유는 \[y\] 음소가 자음으로 인식되고 음표의 지속 시간보다 먼저 발생하기 때문입니다. \[w a\]나 \[ua\]와 같은 음소에도 동일한 원리가 적용됩니다.
+
+- The reason combinations like \[y a\] and \[ia\] are distinguished is primarily for timing purposes. This format assumes there is no Phonemizer with glide support, thus, \[ia\] is used in most scenarios. However, when a character such as 야 appears, the "i" part of \[ia\] needs to occur before the duration of the note begins. Thus why \[y a\] is used for that Hangul instead of \[ia\], as the \[y\] phoneme is recognized as a consonant, and will occur prior to the notes' duration. The same principle applies to phonemes like \[w a\] and \[ua\] as well.
+
+![image](https://github.com/deadbyt/kor_diffsinger_support/assets/93476780/0e45d31b-d626-41a0-88a6-59f86a07db05)
+
+
 ## 영어 음소(English Phonemes)
 
 - 영어 음소는 ARPAbet을 기반으로 하며 해당 형식의 표준을 준수합니다.
