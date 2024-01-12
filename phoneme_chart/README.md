@@ -127,59 +127,59 @@
 
 ### 참고 사항(Notes)
 
-#### <ins>\[i\] & \[iy\], \[u\] & \[u\]</ins>
+  #### <ins>\[i\] & \[iy\], \[u\] & \[u\]</ins>
 
-- \[i\] & \[iy\], \[u\] & \[uw\]는 별개의 소리로 취급됩니다. 반드시 분리해야 하는 것은 아니지만, 분리하는 논리는 두 가지입니다.
-  * 첫 번째 이유는 영어와 한국어 데이터셋을 보다 깔끔하게 구분하여, 충분한 데이터가 주어지면 DiffSinger가 언어별 음소에 대한 특정 조음을 깔끔하게 구분할 수 있도록 하기 위해서입니다. 예를 들어 영어에서는 \[k\]가 문맥에 따라 흡음과 비흡음으로 발음되는 반면, 한국어에서는 \[k\]만 흡음으로 발음되고 \[kk\]는 비흡음으로 발음됩니다. 영어와 한국어의 모음 세트가 완전히 다르기 때문에 영어 모음 앞의 \[k\]는 문맥에 따라 흡기되는 반면, 한국어 모음 앞의 \[k\]는 항상 흡기된다는 것을 DiffSinger가 알 수 있습니다.
-  * 두 번째 이유는 영어에서 \[iy\]와 \[uw\]의 발음 때문입니다. 영어에서 화자들은 이 모음을 이중모음처럼 발음하여 종종 "/ɪi/"와 "/ʊu/"처럼 들리는 경우가 많습니다. 간단한 /i/ 및 /u/도 영어에서 똑같이 유효하므로 이러한 소리를 발음하는 데 필수적이거나 필수적인 것은 아닙니다. 그러나 이는 일반적인 행동이며 한국어 발음의 악센트에 부정적인 영향을 미칠 수 있습니다. 또한 일부 한국어->영어 사용자들은 한국어 \[u\]와 \[eu\]를 무분별하게 영어 \[uw\]로 사용하는 경향이 있습니다. \[uw\]를 고유 음소로 만들면 DiffSinger가 이러한 특성을 고려하는 데 도움이 될 것입니다.
-- \[i\] & \[iy\] 및 \[u\] & \[uw\]의 발음이 일관되고 자음 조음에 문제가 발생하지 않는다고 확신하는 경우 레이블을 지정하는 동안 안전하게 병합할 수 있습니다. 이를 고려하기 위해 dsdict-en.yaml 파일 하단에 다음 코드 줄을 추가하여 \[DIFFS EN\] Phonemizer에서 ARPAbet을 준수하도록 할 수 있습니다.
-  ```
-  replacements:
-  {from: iy, to: i}
-  {from: uw, to: u}
-  ```
+  - \[i\] & \[iy\], \[u\] & \[uw\]는 별개의 소리로 취급됩니다. 반드시 분리해야 하는 것은 아니지만, 분리하는 논리는 두 가지입니다.
+    * 첫 번째 이유는 영어와 한국어 데이터셋을 보다 깔끔하게 구분하여, 충분한 데이터가 주어지면 DiffSinger가 언어별 음소에 대한 특정 조음을 깔끔하게 구분할 수 있도록 하기 위해서입니다. 예를 들어 영어에서는 \[k\]가 문맥에 따라 흡음과 비흡음으로 발음되는 반면, 한국어에서는 \[k\]만 흡음으로 발음되고 \[kk\]는 비흡음으로 발음됩니다. 영어와 한국어의 모음 세트가 완전히 다르기 때문에 영어 모음 앞의 \[k\]는 문맥에 따라 흡기되는 반면, 한국어 모음 앞의 \[k\]는 항상 흡기된다는 것을 DiffSinger가 알 수 있습니다.
+    * 두 번째 이유는 영어에서 \[iy\]와 \[uw\]의 발음 때문입니다. 영어에서 화자들은 이 모음을 이중모음처럼 발음하여 종종 "/ɪi/"와 "/ʊu/"처럼 들리는 경우가 많습니다. 간단한 /i/ 및 /u/도 영어에서 똑같이 유효하므로 이러한 소리를 발음하는 데 필수적이거나 필수적인 것은 아닙니다. 그러나 이는 일반적인 행동이며 한국어 발음의 악센트에 부정적인 영향을 미칠 수 있습니다. 또한 일부 한국어->영어 사용자들은 한국어 \[u\]와 \[eu\]를 무분별하게 영어 \[uw\]로 사용하는 경향이 있습니다. \[uw\]를 고유 음소로 만들면 DiffSinger가 이러한 특성을 고려하는 데 도움이 될 것입니다.
+  - \[i\] & \[iy\] 및 \[u\] & \[uw\]의 발음이 일관되고 자음 조음에 문제가 발생하지 않는다고 확신하는 경우 레이블을 지정하는 동안 안전하게 병합할 수 있습니다. 이를 고려하기 위해 dsdict-en.yaml 파일 하단에 다음 코드 줄을 추가하여 \[DIFFS EN\] Phonemizer에서 ARPAbet을 준수하도록 할 수 있습니다.
+    ```
+    replacements:
+    {from: iy, to: i}
+    {from: uw, to: u}
+    ```
 
-- \[i\] & \[iy\] and \[u\] & \[uw\] are treated as separate sounds. It is not absolutely essential to separate them, but the logic behind doing so is twofold.
-  * The first reason is so that the English and Korean datasets are more neatly divided, that way, given enough data, DiffSinger should neatly be able to discern specific articulation for language-specific phonemes. For example, in English, \[k\] is pronounced as both aspirated and unaspirated depending on the context, whereas in Korean, only \[k\] is aspirated, whereas \[kk\] is unaspirated. Allowing English and Korean to have completely different sets of vowels allows DiffSinger to know that \[k\] preceding an English vowel is contextually aspirated, whereas \[k\] preceding a Korean vowel is always aspirated.
-  * The second reason is due to the articulation of \[iy\] and \[uw\] in English. Many times in English, speakers diphthongize these vowels, to where they often sound more like /ɪi/ and /ʊu/. This is not a requirement, or essential to pronouncing these sounds, as simple /i/ and /u/ are equally valid for English. However, it is a common behavior, and may affect the accent for Korean pronunciation negatively. In addition, some Korean->English speakers sometimes tend to use both the Korean \[u\] and \[eu\] as English \[uw\] indiscriminately, so making \[uw\] its own phoneme should help account for such traits.
-- If you are confident that the pronunciation of \[i\] & \[iy\] and \[u\] & \[uw\] will be consistent and not cause problems with consonant articulation, then you can safely merge them while labeling. To account for this, you can add the following lines to the bottom of the dsdict-en.yaml file to help it conform to ARPAbet in the \[DIFFS EN\] Phonemizer.
-  ```
-  replacements:
-  {from: iy, to: i}
-  {from: uw, to: u}
-  ```
+  - \[i\] & \[iy\] and \[u\] & \[uw\] are treated as separate sounds. It is not absolutely essential to separate them, but the logic behind doing so is twofold.
+    * The first reason is so that the English and Korean datasets are more neatly divided, that way, given enough data, DiffSinger should neatly be able to discern specific articulation for language-specific phonemes. For example, in English, \[k\] is pronounced as both aspirated and unaspirated depending on the context, whereas in Korean, only \[k\] is aspirated, whereas \[kk\] is unaspirated. Allowing English and Korean to have completely different sets of vowels allows DiffSinger to know that \[k\] preceding an English vowel is contextually aspirated, whereas \[k\] preceding a Korean vowel is always aspirated.
+    * The second reason is due to the articulation of \[iy\] and \[uw\] in English. Many times in English, speakers diphthongize these vowels, to where they often sound more like /ɪi/ and /ʊu/. This is not a requirement, or essential to pronouncing these sounds, as simple /i/ and /u/ are equally valid for English. However, it is a common behavior, and may affect the accent for Korean pronunciation negatively. In addition, some Korean->English speakers sometimes tend to use both the Korean \[u\] and \[eu\] as English \[uw\] indiscriminately, so making \[uw\] its own phoneme should help account for such traits.
+  - If you are confident that the pronunciation of \[i\] & \[iy\] and \[u\] & \[uw\] will be consistent and not cause problems with consonant articulation, then you can safely merge them while labeling. To account for this, you can add the following lines to the bottom of the dsdict-en.yaml file to help it conform to ARPAbet in the \[DIFFS EN\] Phonemizer.
+    ```
+    replacements:
+    {from: iy, to: i}
+    {from: uw, to: u}
+    ```
 
-#### <ins>R색 모음(R-Colored Vowels)</ins>
+  #### <ins>R색 모음(R-Colored Vowels)</ins>
 
-- 영어에는 "R색 모음"이라고도 하는 것이 있습니다. 이러한 모음은 ARPAbet에서 개별 음소로 표시되지 않으며, 일반적으로 AI SVS의 목적상 중복됩니다. 하지만 레이블을 지정할 때 이러한 소리가 발생할 때 레이블을 지정하는 방법을 알아두는 것이 좋습니다. 아래에 몇 가지 예와 일반적으로 어떻게 레이블을 지정해야 하는지 설명했습니다.
+  - 영어에는 "R색 모음"이라고도 하는 것이 있습니다. 이러한 모음은 ARPAbet에서 개별 음소로 표시되지 않으며, 일반적으로 AI SVS의 목적상 중복됩니다. 하지만 레이블을 지정할 때 이러한 소리가 발생할 때 레이블을 지정하는 방법을 알아두는 것이 좋습니다. 아래에 몇 가지 예와 일반적으로 어떻게 레이블을 지정해야 하는지 설명했습니다.
 
-  * "ar": "dark", "car" 또는 "start"에서와 같이. \[aa r\]로 표시해야 함.<br>dark -> \[d aa r k\], car -> \[k aa r\], start -> \[s t aa r t\]
+    * "ar": "dark", "car" 또는 "start"에서와 같이. \[aa r\]로 표시해야 함.<br>dark -> \[d aa r k\], car -> \[k aa r\], start -> \[s t aa r t\]
 
-  * "ehr": "bears", "scared" 또는 "hair"와 같이. \[eh r\]로 표시해야 함.<br>곰 -> \[b eh r z\], 겁먹다 -> \[s k eh r d\], 머리 -> \[hh eh r\]
+    * "ehr": "bears", "scared" 또는 "hair"와 같이. \[eh r\]로 표시해야 함.<br>곰 -> \[b eh r z\], 겁먹다 -> \[s k eh r d\], 머리 -> \[hh eh r\]
 
-  * "ir": "fear", "beard" 또는 "cheers"에서와 같이. \[ih r\]로 표시해야 함.<br>fear -> \[f ih r\], beard -> \[b ih r d\], cheers -> \[ch ih r z\], 
+    * "ir": "fear", "beard" 또는 "cheers"에서와 같이. \[ih r\]로 표시해야 함.<br>fear -> \[f ih r\], beard -> \[b ih r d\], cheers -> \[ch ih r z\], 
 
-  * "or": "four", "lord", "doors"과 같이. \[ao r\]로 표시해야 함.<br>four -> \[f ao r\], lord -> \[l ao r d\], doors -> \[d ao r z\]
+    * "or": "four", "lord", "doors"과 같이. \[ao r\]로 표시해야 함.<br>four -> \[f ao r\], lord -> \[l ao r d\], doors -> \[d ao r z\]
 
-  * "ur": "poor", "cured" 또는 "tours"에서와 같이. \[uh r\]로 표시해야 함. 이 소리가 포함되어야 하는 단어는 발화자에 따라 \[er\] 또는 \[ao r\]로 발음하는 경우가 많습니다. 이러한 경우 정확하게 표기할지 아니면 \[uh r\]로 표기할지 잘 판단해 주세요.<br>poor -> \[p uh r\], cured -> \[k y uh r d\], tours -> \[t uh r z\]
+    * "ur": "poor", "cured" 또는 "tours"에서와 같이. \[uh r\]로 표시해야 함. 이 소리가 포함되어야 하는 단어는 발화자에 따라 \[er\] 또는 \[ao r\]로 발음하는 경우가 많습니다. 이러한 경우 정확하게 표기할지 아니면 \[uh r\]로 표기할지 잘 판단해 주세요.<br>poor -> \[p uh r\], cured -> \[k y uh r d\], tours -> \[t uh r z\]
 
-- 영어 사용자들은 이러한 R 색깔 모음을 \[ih r\] 대신 \[iy r\], \[uh r\] 대신 \[uw r\]과 같이 다른 방식으로 발음하는 경우가 많지만, 이러한 경우에도 일반적으로 각각 \[ih r\]과 \[uh r\]로 표기해야 합니다. 유일한 예외는 "be right"(\[b iy\] \[r ay t\]) 또는 "do wrong"(\[d uw\] \[r ao ng\]) 와 같이 단어가 모음으로 끝나고 "r"로 시작하는 경우로, 이는 R색 모음으로 간주되지 않으므로 예외로 합니다.
+  - 영어 사용자들은 이러한 R 색깔 모음을 \[ih r\] 대신 \[iy r\], \[uh r\] 대신 \[uw r\]과 같이 다른 방식으로 발음하는 경우가 많지만, 이러한 경우에도 일반적으로 각각 \[ih r\]과 \[uh r\]로 표기해야 합니다. 유일한 예외는 "be right"(\[b iy\] \[r ay t\]) 또는 "do wrong"(\[d uw\] \[r ao ng\]) 와 같이 단어가 모음으로 끝나고 "r"로 시작하는 경우로, 이는 R색 모음으로 간주되지 않으므로 예외로 합니다.
 
 
 
-- In English, there are also what are known as "R-colored vowels". These are not represented in ARPAbet, and are usually redundant for the purposes of AI SVS. However, when labeling, it is good to know how to label these sounds when they occur. I have given some examples below, and how they should usually be labelled.
+  - In English, there are also what are known as "R-colored vowels". These are not represented in ARPAbet, and are usually redundant for the purposes of AI SVS. However, when labeling, it is good to know how to label these sounds when they occur. I have given some examples below, and how they should usually be labelled.
 
-  * "ar": like in "DARK", "CAR", or "START". Should be labelled as \[aa r\]<br>dark -> \[d aa r k\], car -> \[k aa r\], start -> \[s t aa r t\]
+    * "ar": like in "DARK", "CAR", or "START". Should be labelled as \[aa r\]<br>dark -> \[d aa r k\], car -> \[k aa r\], start -> \[s t aa r t\]
 
-  * "ehr": like in "BEARS", "SCARED", or "HAIR". Should be labelled as \[eh r\]<br>bear -> \[b eh r z\], scared -> \[s k eh r d\], hair -> \[hh eh r\]
+    * "ehr": like in "BEARS", "SCARED", or "HAIR". Should be labelled as \[eh r\]<br>bear -> \[b eh r z\], scared -> \[s k eh r d\], hair -> \[hh eh r\]
 
-  * "ir": like in "FEAR", "BEARD", or "CHEERS". Should be labelled as \[ih r\]<br>fear -> \[f ih r\], beard -> \[b ih r d\], cheers -> \[ch ih r z\]
+    * "ir": like in "FEAR", "BEARD", or "CHEERS". Should be labelled as \[ih r\]<br>fear -> \[f ih r\], beard -> \[b ih r d\], cheers -> \[ch ih r z\]
 
-  * "or": like in "FOUR", "LORD", or "DOORS". Should be labelled as \[ao r\]<br>four -> \[f ao r\], lord -> \[l ao r d\], doors -> \[d ao r z\]
+    * "or": like in "FOUR", "LORD", or "DOORS". Should be labelled as \[ao r\]<br>four -> \[f ao r\], lord -> \[l ao r d\], doors -> \[d ao r z\]
 
-  * "ur": like in "POOR", "CURED", or "TOURS". Should be labelled as \[uh r\]. Words which should contain this sound are often instead pronounced with \[er\] or \[ao r\] depending on the speaker. Use your best judgement on whether to label it accurately or as \[uh r\] in such cases.<br>poor -> \[p uh r\], cured -> \[k y uh r d\], tours -> \[t uh r z\]
+    * "ur": like in "POOR", "CURED", or "TOURS". Should be labelled as \[uh r\]. Words which should contain this sound are often instead pronounced with \[er\] or \[ao r\] depending on the speaker. Use your best judgement on whether to label it accurately or as \[uh r\] in such cases.<br>poor -> \[p uh r\], cured -> \[k y uh r d\], tours -> \[t uh r z\]
 
-- English speakers often pronounce R-colored vowels in different ways, such as \[iy r\] instead of \[ih r\], or \[uw r\] instead of \[uh r\], but even in these cases, they should generally be written as \[ih r\] and \[uh r\] respectively. The only exception is when a word ends with a vowel and begins with "r", such as "be right" (\[b iy\] \[r ay t\]) or "do wrong" (\[d uw\] \[r ao ng\]), as these are not considered R-colored vowels.
+  - English speakers often pronounce R-colored vowels in different ways, such as \[iy r\] instead of \[ih r\], or \[uw r\] instead of \[uh r\], but even in these cases, they should generally be written as \[ih r\] and \[uh r\] respectively. The only exception is when a word ends with a vowel and begins with "r", such as "be right" (\[b iy\] \[r ay t\]) or "do wrong" (\[d uw\] \[r ao ng\]), as these are not considered R-colored vowels.
 
 
 ## 기타 음소(Misc. Phonemes)
