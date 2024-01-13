@@ -67,6 +67,12 @@
 
 ![image](https://github.com/deadbyt/kor_diffsinger_support/assets/93476780/0e45d31b-d626-41a0-88a6-59f86a07db05)
 
+#### 음소 트랜스무타(Phoneme Transmutation)
+
+- 한국어에는 특정 소리의 발음이 바뀌는 경우가 있습니다. 예를 들어, '가'는 평상시에는 \[g a\] 처럼 발음되지만, 구의 시작 부분에서는 \[k a\] 로 발음됩니다. AI는 이러한 문맥상의 차이를 고려할 수 있지만, 일본어 및 기타 여러 언어의 일관된 발음과 사용 편의성을 위해 전자의 예는 \[g a\]로, 후자의 예는 \[k a\]로 레이블을 지정하는 것이 좋습니다.
+
+- There are certain occasions in Korean at which the articulation of certain sounds change. For example, "가" is pronounced like \[g a\] normally, but is pronounced \[k a\] at the beginning of a phrase. While AI can account for these contextual differences, it is recommended to label the former example as \[g a\] and the latter example as \[k a\], to ensure consistent pronunciation, and ease of use for Japanese.
+
 
 ## 영어 음소(English Phonemes)
 
