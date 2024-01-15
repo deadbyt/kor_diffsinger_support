@@ -177,8 +177,7 @@
 
     * "ur": "poor", "cured" 또는 "tours"에서와 같이. \[uh r\]로 표시해야 함. 이 소리가 포함되어야 하는 단어는 발화자에 따라 \[er\] 또는 \[ao r\]로 발음하는 경우가 많습니다. 이러한 경우 정확하게 표기할지 아니면 \[uh r\]로 표기할지 잘 판단해 주세요.<br>poor -> \[p uh r\], cured -> \[k y uh r d\], tours -> \[t uh r z\]
 
-  - 영어 사용자들은 이러한 R 색깔 모음을 \[ih r\] 대신 \[iy r\], \[uh r\] 대신 \[uw r\]과 같이 다른 방식으로 발음하는 경우가 많지만, 이러한 경우에도 일반적으로 각각 \[ih r\]과 \[uh r\]로 표기해야 합니다. 유일한 예외는 "be right"(\[b iy\] \[r ay t\]) 또는 "do wrong"(\[d uw\] \[r ao ng\]) 와 같이 단어가 모음으로 끝나고 "r"로 시작하는 경우로, 이는 R색 모음으로 간주되지 않으므로 예외로 합니다. 이는 'r'이 매우 약하게 들리거나 아예 없는 비운율 악센트에도 적용됩니다.
-
+  - 영어 사용자들은 이러한 R 색깔 모음을 \[ih r\] 대신 \[iy r\], \[uh r\] 대신 \[uw r\]과 같이 다른 방식으로 발음하는 경우가 많지만, 이러한 경우에도 일반적으로 각각 \[ih r\]과 \[uh r\]로 표기해야 합니다. 이는 'r'이 매우 약하게 들리거나 아예 없는 비운율 악센트에도 적용됩니다. 유일한 예외는 "be right"(\[b iy\] \[r ay t\]) 또는 "do wrong"(\[d uw\] \[r ao ng\]) 와 같이 단어가 모음으로 끝나고 "r"로 시작하는 경우로, 이는 R색 모음으로 간주되지 않으므로 예외로 합니다.
 
 
   - In English, there are also what are known as "R-colored vowels". These are not represented in ARPAbet, and are usually redundant for the purposes of AI SVS. However, when labeling, it is good to know how to label these sounds when they occur. I have given some examples below, and how they should usually be labelled.
@@ -193,7 +192,7 @@
 
     * "ur": like in "POOR", "CURED", or "TOURS". Should be labelled as \[uh r\]. Words which should contain this sound are often instead pronounced with \[er\] or \[ao r\] depending on the speaker. Use your best judgement on whether to label it accurately or as \[uh r\] in such cases.<br>poor -> \[p uh r\], cured -> \[k y uh r d\], tours -> \[t uh r z\]
 
-  - English speakers often pronounce R-colored vowels in different ways, such as \[iy r\] instead of \[ih r\], or \[uw r\] instead of \[uh r\], but even in these cases, they should generally be written as \[ih r\] and \[uh r\] respectively. The only exception is when a word ends with a vowel and begins with "r", such as "be right" (\[b iy\] \[r ay t\]) or "do wrong" (\[d uw\] \[r ao ng\]), as these are not considered R-colored vowels. This also applies to non-rhotic accents, where the "r" sounds very weak or is missing altogether.
+  - English speakers often pronounce R-colored vowels in different ways, such as \[iy r\] instead of \[ih r\], or \[uw r\] instead of \[uh r\], but even in these cases, they should generally be written as \[ih r\] and \[uh r\] respectively. This also applies to non-rhotic accents, where the "r" sounds very weak or is missing altogether. The only exception is when a word ends with a vowel and begins with "r", such as "be right" (\[b iy\] \[r ay t\]) or "do wrong" (\[d uw\] \[r ao ng\]), as these are not considered R-colored vowels.
 
 
 ## 기타 음소(Misc. Phonemes)
