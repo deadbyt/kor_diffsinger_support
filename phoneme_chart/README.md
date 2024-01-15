@@ -3,59 +3,59 @@
 ## 한국어 음소(Korean Phonemes)
 
 ### 모음(Vowels):
-| 한글(Hangul) | 음소(Phoneme) |
-| :--- | :--- |
-| ㅏ | a |
-| ㅔ, ㅐ | e |
-| ㅣ | i |
-| ㅗ | o |
-| ㅜ | u |
-| ㅓ | eo |
-| ㅡ | eu |
-| ㅑ | ia |
-| ㅖ, ㅒ | ie |
-| ㅛ | io |
-| ㅠ | iu |
-| ㅕ | ieo |
-| ㅘ | ua |
-| ㅞ, ㅙ, ㅚ | ue |
-| ㅟ | ui |
-| ㅝ | uo |
+| 한글<br>(Hangul) | 음소<br>(Phoneme) | 가장 가까운 영어 등가물<br>(Closest English Equivalent) |
+| :--- | :--- | :--- |
+| ㅏ | a | "ah" in "soft" |
+| ㅔ, ㅐ | e | "eh" like in "head" |
+| ㅣ | i | "ee" as in "see" |
+| ㅗ | o | "o" as in "four" |
+| ㅜ | u | "ooh" as in "food" |
+| ㅓ | eo | "uh" as in "but" |
+| ㅡ | eu | Like English "ooh", but the lips are unrounded and not pursed |
+| ㅑ | ia | Like English "yah!", like an action hero |
+| ㅖ, ㅒ | ie | Like "ye" as in "yes" |
+| ㅛ | io | "yo" like in "fjord" |
+| ㅠ | iu | Like English "you" |
+| ㅕ | ieo | Like "yuh" |
+| ㅘ | ua | Like "wa" as in "water" |
+| ㅞ, ㅙ, ㅚ | ue | Like "we" as in "wet" |
+| ㅟ | ui | Like English "we" |
+| ㅝ | uo | Like English "wuh" as in "what" |
 
 
 ### 자음(Consonants):
-| 한글(Hangul) | 초기 음소(Initial) | 코다 음소(Coda) |
-| :--- | :--- | :--- |
-| ㄱ  | g     | kcl |
-| ㄲ  | kk    |     |
-| ㅋ  | k     |     |
-| ㄷ  | d     | tcl |
-| ㄸ  | tt    |     |
-| ㅌ  | t     |     |
-| ㅂ  | b     | pcl |
-| ㅃ  | pp    |     |
-| ㅍ  | p     |     |
-| ㅁ  | m     | m   |
-| ㄴ  | n     | n   |
-| ㄹ  | rx, l | l   |
-| ㅅ  | sc    |     |
-| ㅆ  | s     |     |
-| ㅈ  | jh    |     |
-| ㅉ  | jj    |     |
-| ㅊ  | ch    |     |
-| ㅎ  | hh    |     |
-| ㅇ  |       | ng  |
+| 한글(Hangul) | 초기 음소(Initial) | 코다 음소(Coda) | 가장 가까운 영어 등가물<br>(Closest English Equivalent) |
+| :--- | :--- | :--- | :--- |
+| ㄱ  | g     | kcl | "g" as in "game". In the coda position, the consonant is unreleased, meaning your mouth preps to pronounce a "g", but never actually releases the sound. |
+| ㄲ  | kk    |     | Unaspirated "k" as in "skip" |
+| ㅋ  | k     |     | Aspirated "k" as in "cat" |
+| ㄷ  | d     | tcl | "d" as in "day". In the coda position, the consonant is unreleased, meaning your mouth preps to pronounce a "d", but never actually releases the sound. |
+| ㄸ  | tt    |     | Unaspirated "t" as in "stay" |
+| ㅌ  | t     |     | Aspirated "t" as in "talk" |
+| ㅂ  | b     | pcl | "b" as in "best". In the coda position, the consonant is unreleased, meaning your mouth preps to pronounce a "b", but never actually releases the sound. |
+| ㅃ  | pp    |     | Unaspirated "p" as in "spill" |
+| ㅍ  | p     |     | Aspirated "p" as in "pie" |
+| ㅁ  | m     | m   | "m" as in "me" |
+| ㄴ  | n     | n   | "n" as in "nine" |
+| ㄹ  | rx, l | l   | In the initial position, it is pronounced similar to how Americans pronounce "tt" as in "butter", or like a Spanish "r". In the coda position, or when it's doubled-up, it is pronounced like "l" as in "like" |
+| ㅅ  | sc    |     | Like English "s" as in "say", but more relaxed. |
+| ㅆ  | s     |     | Like English "s" as in "say". More tense than \[sc\] |
+| ㅈ  | jh    |     | Like English "j" as in "just" |
+| ㅉ  | jj    |     | Like English "j" as in "just", but more tense. Almost like a "ch" |
+| ㅊ  | ch    |     | Like English "ch" as in "chance" |
+| ㅎ  | hh    |     | Like English "h" as in "hair". Articulation differs slightly depending on the vowel in Korean. |
+| ㅇ  |       | ng  | Like English "ng" as in "sing |
 
 ### 문맥별 음소(Contextual Phonemes):
 
-| 한글(Hangul) | 음소(Phoneme) | 음소 예시(Example) |
-| :--- | :--- | :--- |
-| 시, 샤, 셰, 쇼, 슈, 셔	| sh | \[sh ia\], \[sh i\], \[sh ieo\], etc.	|
-| 씨, 쌰, 쎼, 쑈, 쓔, 쎠	| sy | \[sy ia\], \[sy i\], \[sy ieo\], etc.	|
-| 야, 예, 요, 유, 여,	얘 | y | \[y a\], \[y e\], \[y eo\], etc. |
-| 와, 웨, 위, 워	, 왜, 외 | w | \[w a\], \[w e\], \[w eo\], etc. |
-| 의	| wx | \[wx i\] |
-| "끊음"(Glottal Stop)	| q | \[q a\], \[q e\], \[q eo\], etc.|
+| 한글(Hangul) | 음소(Phoneme) | 음소 예시(Example) | 가장 가까운 영어 등가물<br>(Closest English Equivalent) |
+| :--- | :--- | :--- | :--- |
+| 시, 샤, 셰, 쇼, 슈, 셔	| sh | \[sh ia\], \[sh i\], \[sh ieo\], etc.	| Like English "sh" as in "share" |
+| 씨, 쌰, 쎼, 쑈, 쓔, 쎠	| sy | \[sy ia\], \[sy i\], \[sy ieo\], etc.	| Like English "sh" as in "share", more tense than \[sh\] |
+| 야, 예, 요, 유, 여,	얘 | y | \[y a\], \[y e\], \[y eo\], etc. | Like English "y" as in "yell" |
+| 와, 웨, 위, 워	, 왜, 외 | w | \[w a\], \[w e\], \[w eo\], etc. | Like English "w" as in "wait" |
+| 의	| wx | \[wx i\] | Like English "w" as in "we". However, compared to \[ui\] the lips should not tense up much when pronouncing it, and remained unrounded and unpursed. |
+| "끊음"(Glottal Stop)	| q | \[q a\], \[q e\], \[q eo\], etc.| Like the pause in "uh-oh" |
 
 ### 참고 사항(Notes)
 
