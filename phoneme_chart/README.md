@@ -73,6 +73,12 @@
 
 - There are certain occasions in Korean at which the articulation of certain sounds change. For example, "가" is pronounced like \[g a\] normally, but is pronounced \[k a\] at the beginning of a phrase. While AI can account for these contextual differences, it is recommended to label the former example as \[g a\] and the latter example as \[k a\], to ensure consistent pronunciation, and ease of use for Japanese.
 
+#### 디프통(Diphthongs)
+
+- 이는 필수 사항이 아닌 제안 사항입니다. 단, 한국어에서 이중 모음 또는 비음절 모음이 나오는 경우("ABC..."의 "A"와 같이), \[y\] 및 \[w\] 소리는 코다 위치에서 자음으로 다른 용도가 없으므로 적절한 경우 후자의 모음을 \[y\] 또는 \[w\]로 표시하는 것이 좋습니다.<br>예시\:<br>"A" -> \[e y\]
+
+- This is merely a suggestion, and not a requirement. However, when diphthongs or nonsyllabic vowels occur in a Korean dataset (such as the "A" in "ABC..."), it is recommended to mark the latter vowel as \[y\] or \[w\] where appropriate, as the \[y\] and \[w\] sounds have no other use as consonants in coda position.<br>Example\:<br>"A" -> \[e y\]
+
 
 ## 영어 음소(English Phonemes)
 
