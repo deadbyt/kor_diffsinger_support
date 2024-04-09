@@ -206,7 +206,7 @@
 | お | o | ㅗ | "o" as in "four" |
 | ん | nn | ㄱ,ㅋ,o,ㅎ의 앞에서는는 "ㅇ" / ㄴ,ㄷ,ㄹ,ㅅ,ㅈ,ㅊ,ㅌ의 앞에서는 "ㄴ" / ㅁ,ㅂ,ㅍ앞에서는 "ㅁ" 소리가 납니다. | Syllabic "n" |
 | (き)ゃ | ia | ㅑ | Like English "yah!", like an action hero |
-| (き)ゅ | iux | 입모양 "ㅜ"를를 유지한 채로 "ㅣ" + "ㅡ"를 빠르게 발음하면 유사한 소리가 납니다. | Like English "you" |
+| (き)ゅ | iux | 입모양 "ㅜ"를를 유지한 채로 "ㅣ" + "ㅡ"를 빠르게 발음하면 유사한 소리가 납니다. | Like English "you", but the lips are unrounded and not pursed |
 | (き)ぇ | ie | ㅖ | Like "ye" as in "yes" |
 | (き)ょ | io | ㅛ | "yo" like in "fjord" |
 #### 선택적 모음 음소(Optional Vowel Phonemes):
