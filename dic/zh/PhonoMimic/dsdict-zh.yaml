@@ -1,0 +1,558 @@
+%YAML 1.2
+---
+symbols:
+#Korean
+- {symbol: a, type: vowel}
+- {symbol: e, type: vowel}
+- {symbol: i, type: vowel}
+- {symbol: o, type: vowel}
+- {symbol: u, type: vowel}
+- {symbol: eo, type: vowel}
+- {symbol: eu, type: vowel}
+- {symbol: ia, type: vowel}
+- {symbol: ie, type: vowel}
+- {symbol: io, type: vowel}
+- {symbol: iu, type: vowel}
+- {symbol: ieo, type: vowel}
+- {symbol: oa, type: vowel}
+- {symbol: oe, type: vowel}
+- {symbol: ui, type: vowel}
+- {symbol: uo, type: vowel}
+- {symbol: g, type: stop}
+- {symbol: kk, type: stop}
+- {symbol: k, type: stop}
+- {symbol: d, type: stop}
+- {symbol: tt, type: stop}
+- {symbol: t, type: stop}
+- {symbol: b, type: stop}
+- {symbol: pp, type: stop}
+- {symbol: p, type: stop}
+- {symbol: m, type: stop}
+- {symbol: n, type: stop}
+- {symbol: rx, type: stop}
+- {symbol: l, type: stop}
+- {symbol: sc, type: stop}
+- {symbol: sh, type: stop}
+- {symbol: s, type: stop}
+- {symbol: sy, type: stop}
+- {symbol: jh, type: stop}
+- {symbol: jj, type: stop}
+- {symbol: ch, type: stop}
+- {symbol: hh, type: stop}
+- {symbol: q, type: stop}
+- {symbol: y, type: stop}
+- {symbol: w, type: stop}
+- {symbol: wx, type: stop}
+- {symbol: kcl, type: stop}
+- {symbol: pcl, type: stop}
+- {symbol: tcl, type: stop}
+- {symbol: ng, type: stop}
+#English
+- {symbol: aa, type: vowel}
+- {symbol: ae, type: vowel}
+- {symbol: ah, type: vowel}
+- {symbol: ao, type: vowel}
+- {symbol: ax, type: vowel}
+- {symbol: eh, type: vowel}
+- {symbol: er, type: vowel}
+- {symbol: ih, type: vowel}
+- {symbol: iy, type: vowel}
+- {symbol: uh, type: vowel}
+- {symbol: uw, type: vowel}
+- {symbol: aw, type: vowel}
+- {symbol: ay, type: vowel}
+- {symbol: ey, type: vowel}
+- {symbol: ow, type: vowel}
+- {symbol: oy, type: vowel}
+- {symbol: dh, type: stop}
+- {symbol: f, type: stop}
+- {symbol: r, type: stop}
+- {symbol: th, type: stop}
+- {symbol: v, type: stop}
+- {symbol: z, type: stop}
+- {symbol: zh, type: stop}
+- {symbol: dx, type: stop}
+- {symbol: axh, type: vowel}
+- {symbol: exh, type: vowel}
+- {symbol: cl, type: stop}
+- {symbol: vf, type: stop}
+#Japanese
+- {symbol: ux, type: vowel}
+- {symbol: iux, type: vowel}
+- {symbol: nn, type: vowel}
+- {symbol: ua, type: vowel}
+- {symbol: ue, type: vowel}
+- {symbol: wo, type: vowel}
+- {symbol: dz, type: stop}
+- {symbol: rl, type: stop}
+- {symbol: ts, type: stop}
+- {symbol: dj, type: stop}
+- {symbol: fh, type: stop}
+entries:
+#Mandarin_Chinese
+- {grapheme: "a", phonemes: [a]}
+- {grapheme: "o", phonemes: [o]}
+- {grapheme: "e", phonemes: [eo]}
+- {grapheme: "er", phonemes: [er]}
+- {grapheme: "ai", phonemes: [ay]}
+- {grapheme: "ao", phonemes: [aw]}
+- {grapheme: "ou", phonemes: [ow]}
+- {grapheme: "an", phonemes: [a, n]}
+- {grapheme: "en", phonemes: [ah, n]}
+- {grapheme: "ang", phonemes: [aa, ng]}
+- {grapheme: "eng", phonemes: [ah, ng]}
+- {grapheme: "yi", phonemes: [i]}
+- {grapheme: "ya", phonemes: [y, ia]}
+- {grapheme: "yao", phonemes: [y, aw]}
+- {grapheme: "ye", phonemes: [y, ie]}
+- {grapheme: "you", phonemes: [y, ow]}
+- {grapheme: "yan", phonemes: [y, eh, n]}
+- {grapheme: "yin", phonemes: [y, i, n]}
+- {grapheme: "yang", phonemes: [y, aa, ng]}
+- {grapheme: "ying", phonemes: [y, i, ng]}
+- {grapheme: "yong", phonemes: [y, o, ng]}
+- {grapheme: "wu", phonemes: [u]}
+- {grapheme: "wa", phonemes: [w, a]}
+- {grapheme: "wo", phonemes: [w, o]}
+- {grapheme: "wai", phonemes: [w, ay]}
+- {grapheme: "wei", phonemes: [w, ey]}
+- {grapheme: "wan", phonemes: [w, a, n]}
+- {grapheme: "wen", phonemes: [w, ah, n]}
+- {grapheme: "wang", phonemes: [w, aa, ng]}
+- {grapheme: "weng", phonemes: [w, ah, ng]}
+- {grapheme: "yu", phonemes: [y, eu]}
+- {grapheme: "yue", phonemes: [y, oe]}
+- {grapheme: "yuan", phonemes: [y, oe, n]}
+- {grapheme: "yun", phonemes: [y, eu, n]}
+- {grapheme: "ba", phonemes: [pp, a]}
+- {grapheme: "bo", phonemes: [pp, o]}
+- {grapheme: "bai", phonemes: [pp, ay]}
+- {grapheme: "bei", phonemes: [pp, ey]}
+- {grapheme: "bao", phonemes: [pp, aw]}
+- {grapheme: "ban", phonemes: [pp, a, n]}
+- {grapheme: "ben", phonemes: [pp, ah, n]}
+- {grapheme: "bang", phonemes: [pp, aa, ng]}
+- {grapheme: "beng", phonemes: [pp, ah, ng]}
+- {grapheme: "bi", phonemes: [pp, i]}
+- {grapheme: "biao", phonemes: [pp, ia, w]}
+- {grapheme: "bie", phonemes: [pp, ie]}
+- {grapheme: "bian", phonemes: [pp, ie, n]}
+- {grapheme: "bin", phonemes: [pp, i, n]}
+- {grapheme: "bing", phonemes: [pp, i, ng]}
+- {grapheme: "bu", phonemes: [pp, u]}
+- {grapheme: "pa", phonemes: [p, a]}
+- {grapheme: "po", phonemes: [p, o]}
+- {grapheme: "pai", phonemes: [p, ay]}
+- {grapheme: "pei", phonemes: [p, ey]}
+- {grapheme: "pao", phonemes: [p, aw]}
+- {grapheme: "pou", phonemes: [p, ow]}
+- {grapheme: "pan", phonemes: [p, a, n]}
+- {grapheme: "pen", phonemes: [p, ah, n]}
+- {grapheme: "pang", phonemes: [p, aa, ng]}
+- {grapheme: "peng", phonemes: [p, ah, ng]}
+- {grapheme: "pi", phonemes: [p, i]}
+- {grapheme: "piao", phonemes: [p, ia, w]}
+- {grapheme: "pie", phonemes: [p, ie]}
+- {grapheme: "pian", phonemes: [p, ie, n]}
+- {grapheme: "pin", phonemes: [p, i, n]}
+- {grapheme: "ping", phonemes: [p, i, ng]}
+- {grapheme: "pu", phonemes: [p, u]}
+- {grapheme: "ma", phonemes: [m, a]}
+- {grapheme: "mo", phonemes: [m, o]}
+- {grapheme: "me", phonemes: [m, eo]}
+- {grapheme: "mai", phonemes: [m, ay]}
+- {grapheme: "mei", phonemes: [m, ey]}
+- {grapheme: "mao", phonemes: [m, aw]}
+- {grapheme: "mou", phonemes: [m, ow]}
+- {grapheme: "man", phonemes: [m, a, n]}
+- {grapheme: "men", phonemes: [m, ah, n]}
+- {grapheme: "mang", phonemes: [m, aa, ng]}
+- {grapheme: "meng", phonemes: [m, ah, ng]}
+- {grapheme: "mi", phonemes: [m, i]}
+- {grapheme: "miao", phonemes: [m, ia, w]}
+- {grapheme: "mie", phonemes: [m, ie]}
+- {grapheme: "miu", phonemes: [m, io, w]}
+- {grapheme: "mian", phonemes: [m, ie, n]}
+- {grapheme: "min", phonemes: [m, i, n]}
+- {grapheme: "ming", phonemes: [m, i, ng]}
+- {grapheme: "mu", phonemes: [m, u]}
+- {grapheme: "fa", phonemes: [f, a]}
+- {grapheme: "fo", phonemes: [f, o]}
+- {grapheme: "fei", phonemes: [f, ey]}
+- {grapheme: "fou", phonemes: [f, ow]}
+- {grapheme: "fan", phonemes: [f, a, n]}
+- {grapheme: "fen", phonemes: [f, ah, n]}
+- {grapheme: "fang", phonemes: [f, aa, ng]}
+- {grapheme: "feng", phonemes: [f, ah, ng]}
+- {grapheme: "fu", phonemes: [f, u]}
+- {grapheme: "da", phonemes: [tt, a]}
+- {grapheme: "de", phonemes: [tt, eo]}
+- {grapheme: "dai", phonemes: [tt, ay]}
+- {grapheme: "dei", phonemes: [tt, ey]}
+- {grapheme: "dao", phonemes: [tt, aw]}
+- {grapheme: "dou", phonemes: [tt, ow]}
+- {grapheme: "dan", phonemes: [tt, a, n]}
+- {grapheme: "den", phonemes: [tt, ah, n]}
+- {grapheme: "dang", phonemes: [tt, aa, ng]}
+- {grapheme: "deng", phonemes: [tt, ah, ng]}
+- {grapheme: "dong", phonemes: [tt, o, ng]}
+- {grapheme: "di", phonemes: [tt, i]}
+- {grapheme: "diao", phonemes: [tt, ia, w]}
+- {grapheme: "die", phonemes: [tt, ie]}
+- {grapheme: "diu", phonemes: [tt, io, w]}
+- {grapheme: "dian", phonemes: [tt, ie, n]}
+- {grapheme: "ding", phonemes: [tt, i, ng]}
+- {grapheme: "du", phonemes: [tt, u]}
+- {grapheme: "duo", phonemes: [tt, uo]}
+- {grapheme: "dui", phonemes: [tt, oe, y]}
+- {grapheme: "duan", phonemes: [tt, oa, n]}
+- {grapheme: "dun", phonemes: [tt, uo, n]}
+- {grapheme: "ta", phonemes: [t, a]}
+- {grapheme: "te", phonemes: [t, eo]}
+- {grapheme: "tai", phonemes: [t, ay]}
+- {grapheme: "tei", phonemes: [t, ey]}
+- {grapheme: "tao", phonemes: [t, aw]}
+- {grapheme: "tou", phonemes: [t, ow]}
+- {grapheme: "tan", phonemes: [t, a, n]}
+- {grapheme: "tang", phonemes: [t, aa, ng]}
+- {grapheme: "teng", phonemes: [t, ah, ng]}
+- {grapheme: "tong", phonemes: [t, o, ng]}
+- {grapheme: "ti", phonemes: [t, i]}
+- {grapheme: "tiao", phonemes: [t, ia, w]}
+- {grapheme: "tie", phonemes: [t, ie]}
+- {grapheme: "tian", phonemes: [t, ie, n]}
+- {grapheme: "ting", phonemes: [t, i, ng]}
+- {grapheme: "tu", phonemes: [t, u]}
+- {grapheme: "tuo", phonemes: [t, uo]}
+- {grapheme: "tui", phonemes: [t, oe, y]}
+- {grapheme: "tuan", phonemes: [t, oa, n]}
+- {grapheme: "tun", phonemes: [t, uo, n]}
+- {grapheme: "na", phonemes: [n, a]}
+- {grapheme: "ne", phonemes: [n, eo]}
+- {grapheme: "nai", phonemes: [n, ay]}
+- {grapheme: "nei", phonemes: [n, ey]}
+- {grapheme: "nao", phonemes: [n, aw]}
+- {grapheme: "nou", phonemes: [n, ow]}
+- {grapheme: "nan", phonemes: [n, a, n]}
+- {grapheme: "nen", phonemes: [n, ah, n]}
+- {grapheme: "nang", phonemes: [n, aa, ng]}
+- {grapheme: "neng", phonemes: [n, ah, ng]}
+- {grapheme: "nong", phonemes: [n, o, ng]}
+- {grapheme: "ni", phonemes: [n, i]}
+- {grapheme: "niao", phonemes: [n, ia, w]}
+- {grapheme: "nie", phonemes: [n, ie]}
+- {grapheme: "niu", phonemes: [n, io, w]}
+- {grapheme: "nian", phonemes: [n, ie, n]}
+- {grapheme: "nin", phonemes: [n, i, n]}
+- {grapheme: "niang", phonemes: [n, ia, ng]}
+- {grapheme: "ning", phonemes: [n, i, ng]}
+- {grapheme: "nu", phonemes: [n, u]}
+- {grapheme: "nuo", phonemes: [n, uo]}
+- {grapheme: "nuan", phonemes: [n, oa, n]}
+- {grapheme: "nü", phonemes: [n, eu]}
+- {grapheme: "nv", phonemes: [n, eu]}
+- {grapheme: "nyu", phonemes: [n, eu]}
+- {grapheme: "nüe", phonemes: [n, oe]}
+- {grapheme: "nve", phonemes: [n, oe]}
+- {grapheme: "nue", phonemes: [n, oe]}
+- {grapheme: "nyue", phonemes: [n, oe]}
+- {grapheme: "la", phonemes: [l, a]}
+- {grapheme: "le", phonemes: [l, eo]}
+- {grapheme: "lai", phonemes: [l, ay]}
+- {grapheme: "lei", phonemes: [l, ey]}
+- {grapheme: "lao", phonemes: [l, aw]}
+- {grapheme: "lou", phonemes: [l, ow]}
+- {grapheme: "lan", phonemes: [l, a, n]}
+- {grapheme: "lang", phonemes: [l, aa, ng]}
+- {grapheme: "leng", phonemes: [l, ah, ng]}
+- {grapheme: "long", phonemes: [l, o, ng]}
+- {grapheme: "li", phonemes: [l, i]}
+- {grapheme: "lia", phonemes: [l, ia]}
+- {grapheme: "liao", phonemes: [l, ia, w]}
+- {grapheme: "lie", phonemes: [l, ie]}
+- {grapheme: "liu", phonemes: [l, io, w]}
+- {grapheme: "lian", phonemes: [l, ie, n]}
+- {grapheme: "lin", phonemes: [l, i, n]}
+- {grapheme: "liang", phonemes: [l, ia, ng]}
+- {grapheme: "ling", phonemes: [l, i, ng]}
+- {grapheme: "lu", phonemes: [l, u]}
+- {grapheme: "luo", phonemes: [l, uo]}
+- {grapheme: "luan", phonemes: [l, oa, n]}
+- {grapheme: "lun", phonemes: [l, uo, n]}
+- {grapheme: "lü", phonemes: [l, eu]}
+- {grapheme: "lv", phonemes: [l, eu]}
+- {grapheme: "lyu", phonemes: [l, eu]}
+- {grapheme: "lüe", phonemes: [l, oe]}
+- {grapheme: "lve", phonemes: [l, oe]}
+- {grapheme: "lue", phonemes: [l, oe]}
+- {grapheme: "lyue", phonemes: [l, oe]}
+- {grapheme: "ga", phonemes: [kk, a]}
+- {grapheme: "ge", phonemes: [kk, eo]}
+- {grapheme: "gai", phonemes: [kk, ay]}
+- {grapheme: "gei", phonemes: [kk, ey]}
+- {grapheme: "gao", phonemes: [kk, aw]}
+- {grapheme: "gou", phonemes: [kk, ow]}
+- {grapheme: "gan", phonemes: [kk, a, n]}
+- {grapheme: "gen", phonemes: [kk, ah, n]}
+- {grapheme: "gang", phonemes: [kk, aa, ng]}
+- {grapheme: "geng", phonemes: [kk, ah, ng]}
+- {grapheme: "gong", phonemes: [kk, o, ng]}
+- {grapheme: "gu", phonemes: [kk, u]}
+- {grapheme: "gua", phonemes: [kk, oa]}
+- {grapheme: "guo", phonemes: [kk, uo]}
+- {grapheme: "guai", phonemes: [kk, oa, y]}
+- {grapheme: "gui", phonemes: [kk, oe, y]}
+- {grapheme: "guan", phonemes: [kk, oa, n]}
+- {grapheme: "gun", phonemes: [kk, uo, n]}
+- {grapheme: "guang", phonemes: [kk, oa, ng]}
+- {grapheme: "ka", phonemes: [k, a]}
+- {grapheme: "ke", phonemes: [k, eo]}
+- {grapheme: "kai", phonemes: [k, ay]}
+- {grapheme: "kei", phonemes: [k, ey]}
+- {grapheme: "kao", phonemes: [k, aw]}
+- {grapheme: "kou", phonemes: [k, ow]}
+- {grapheme: "kan", phonemes: [k, a, n]}
+- {grapheme: "ken", phonemes: [k, ah, n]}
+- {grapheme: "kang", phonemes: [k, aa, ng]}
+- {grapheme: "keng", phonemes: [k, ah, ng]}
+- {grapheme: "kong", phonemes: [k, o, ng]}
+- {grapheme: "ku", phonemes: [k, u]}
+- {grapheme: "kua", phonemes: [k, oa]}
+- {grapheme: "kuo", phonemes: [k, uo]}
+- {grapheme: "kuai", phonemes: [k, oa, y]}
+- {grapheme: "kui", phonemes: [k, oe, y]}
+- {grapheme: "kuan", phonemes: [k, oa, n]}
+- {grapheme: "kun", phonemes: [k, uo, n]}
+- {grapheme: "kuang", phonemes: [k, oa, ng]}
+- {grapheme: "ha", phonemes: [hh, a]}
+- {grapheme: "he", phonemes: [hh, eo]}
+- {grapheme: "hai", phonemes: [hh, ay]}
+- {grapheme: "hei", phonemes: [hh, ey]}
+- {grapheme: "hao", phonemes: [hh, aw]}
+- {grapheme: "hou", phonemes: [hh, ow]}
+- {grapheme: "han", phonemes: [hh, a, n]}
+- {grapheme: "hen", phonemes: [hh, ah, n]}
+- {grapheme: "hang", phonemes: [hh, aa, ng]}
+- {grapheme: "heng", phonemes: [hh, ah, ng]}
+- {grapheme: "hong", phonemes: [hh, o, ng]}
+- {grapheme: "hu", phonemes: [hh, u]}
+- {grapheme: "hua", phonemes: [hh, oa]}
+- {grapheme: "huo", phonemes: [hh, uo]}
+- {grapheme: "huai", phonemes: [hh, oa, y]}
+- {grapheme: "hui", phonemes: [hh, oe, y]}
+- {grapheme: "huan", phonemes: [hh, oa, n]}
+- {grapheme: "hun", phonemes: [hh, uo, n]}
+- {grapheme: "huang", phonemes: [hh, oa, ng]}
+- {grapheme: "za", phonemes: [t, s, a]}
+- {grapheme: "ze", phonemes: [t, s, eo]}
+- {grapheme: "zi", phonemes: [t, s, ih]}
+- {grapheme: "zai", phonemes: [t, s, ay]}
+- {grapheme: "zei", phonemes: [t, s, ey]}
+- {grapheme: "zao", phonemes: [t, s, aw]}
+- {grapheme: "zou", phonemes: [t, s, ow]}
+- {grapheme: "zan", phonemes: [t, s, a, n]}
+- {grapheme: "zen", phonemes: [t, s, ah, n]}
+- {grapheme: "zang", phonemes: [t, s, aa, ng]}
+- {grapheme: "zeng", phonemes: [t, s, ah, ng]}
+- {grapheme: "zong", phonemes: [t, s, o, ng]}
+- {grapheme: "zu", phonemes: [t, s, u]}
+- {grapheme: "zuo", phonemes: [t, s, uo]}
+- {grapheme: "zui", phonemes: [t, s, oe, y]}
+- {grapheme: "zuan", phonemes: [t, s, oa, n]}
+- {grapheme: "zun", phonemes: [t, s, uo, n]}
+- {grapheme: "ca", phonemes: [t, sc, a]}
+- {grapheme: "ce", phonemes: [t, sc, eo]}
+- {grapheme: "ci", phonemes: [t, sc, ih]}
+- {grapheme: "cai", phonemes: [t, sc, ay]}
+- {grapheme: "cao", phonemes: [t, sc, aw]}
+- {grapheme: "cou", phonemes: [t, sc, ow]}
+- {grapheme: "can", phonemes: [t, sc, a, n]}
+- {grapheme: "cen", phonemes: [t, sc, ah, n]}
+- {grapheme: "cang", phonemes: [t, sc, aa, ng]}
+- {grapheme: "ceng", phonemes: [t, sc, ah, ng]}
+- {grapheme: "cong", phonemes: [t, sc, o, ng]}
+- {grapheme: "cu", phonemes: [t, sc, u]}
+- {grapheme: "cuo", phonemes: [t, sc, uo]}
+- {grapheme: "cui", phonemes: [t, sc, oe, y]}
+- {grapheme: "cuan", phonemes: [t, sc, oa, n]}
+- {grapheme: "cun", phonemes: [t, sc, uo, n]}
+- {grapheme: "sa", phonemes: [s, a]}
+- {grapheme: "se", phonemes: [s, eo]}
+- {grapheme: "si", phonemes: [s, ih]}
+- {grapheme: "sai", phonemes: [s, ay]}
+- {grapheme: "sao", phonemes: [s, aw]}
+- {grapheme: "sou", phonemes: [s, ow]}
+- {grapheme: "san", phonemes: [s, a, n]}
+- {grapheme: "sen", phonemes: [s, ah, n]}
+- {grapheme: "sang", phonemes: [s, aa, ng]}
+- {grapheme: "seng", phonemes: [s, ah, ng]}
+- {grapheme: "song", phonemes: [s, o, ng]}
+- {grapheme: "su", phonemes: [s, u]}
+- {grapheme: "suo", phonemes: [s, uo]}
+- {grapheme: "sui", phonemes: [s, oe, y]}
+- {grapheme: "suan", phonemes: [s, oa, n]}
+- {grapheme: "sun", phonemes: [s, uo, n]}
+- {grapheme: "zha", phonemes: [jh, a]}
+- {grapheme: "zhe", phonemes: [jh, eo]}
+- {grapheme: "zhi", phonemes: [jh, ih]}
+- {grapheme: "zhai", phonemes: [jh, ay]}
+- {grapheme: "zhei", phonemes: [jh, ey]}
+- {grapheme: "zhao", phonemes: [jh, aw]}
+- {grapheme: "zhou", phonemes: [jh, ow]}
+- {grapheme: "zhan", phonemes: [jh, a, n]}
+- {grapheme: "zhen", phonemes: [jh, ah, n]}
+- {grapheme: "zhang", phonemes: [jh, aa, ng]}
+- {grapheme: "zheng", phonemes: [jh, ah, ng]}
+- {grapheme: "zhong", phonemes: [jh, o , ng]}
+- {grapheme: "zhu", phonemes: [jh, u]}
+- {grapheme: "zhua", phonemes: [jh, oa]}
+- {grapheme: "zhuo", phonemes: [jh, uo]}
+- {grapheme: "zhuai", phonemes: [jh, oa, y]}
+- {grapheme: "zhui", phonemes: [jh, oe, y]}
+- {grapheme: "zhuan", phonemes: [jh, oa, n]}
+- {grapheme: "zhun", phonemes: [jh, uo, n]}
+- {grapheme: "zhuang", phonemes: [jh, oa, ng]}
+- {grapheme: "cha", phonemes: [ch, a]}
+- {grapheme: "che", phonemes: [ch, eo]}
+- {grapheme: "chi", phonemes: [ch, ih]}
+- {grapheme: "chai", phonemes: [ch, ay]}
+- {grapheme: "chao", phonemes: [ch, aw]}
+- {grapheme: "chou", phonemes: [ch, ow]}
+- {grapheme: "chan", phonemes: [ch, a, n]}
+- {grapheme: "chen", phonemes: [ch, ah, n]}
+- {grapheme: "chang", phonemes: [ch, aa, ng]}
+- {grapheme: "cheng", phonemes: [ch, ah, ng]}
+- {grapheme: "chong", phonemes: [ch, o, ng]}
+- {grapheme: "chu", phonemes: [ch, u]}
+- {grapheme: "chua", phonemes: [ch, oa]}
+- {grapheme: "chuo", phonemes: [ch, uo]}
+- {grapheme: "chuai", phonemes: [ch, oa, y]}
+- {grapheme: "chui", phonemes: [ch, oe, y]}
+- {grapheme: "chuan", phonemes: [ch, oa, n]}
+- {grapheme: "chun", phonemes: [ch, uo, n]}
+- {grapheme: "chuang", phonemes: [ch, oa, ng]}
+- {grapheme: "sha", phonemes: [sh, a]}
+- {grapheme: "she", phonemes: [sh, eo]}
+- {grapheme: "shi", phonemes: [sh, ih]}
+- {grapheme: "shai", phonemes: [sh, ay]}
+- {grapheme: "shei", phonemes: [sh, ey]}
+- {grapheme: "shao", phonemes: [sh, aw]}
+- {grapheme: "shou", phonemes: [sh, ow]}
+- {grapheme: "shan", phonemes: [sh, a, n]}
+- {grapheme: "shen", phonemes: [sh, ah, n]}
+- {grapheme: "shang", phonemes: [sh, aa, ng]}
+- {grapheme: "sheng", phonemes: [sh, ah, ng]}
+- {grapheme: "shu", phonemes: [sh, u]}
+- {grapheme: "shua", phonemes: [sh, oa]}
+- {grapheme: "shuo", phonemes: [sh, uo]}
+- {grapheme: "shuai", phonemes: [sh, oa, y]}
+- {grapheme: "shui", phonemes: [sh, oe, y]}
+- {grapheme: "shuan", phonemes: [sh, oa, n]}
+- {grapheme: "shun", phonemes: [sh, uo, n]}
+- {grapheme: "shuang", phonemes: [sh, oa, ng]}
+- {grapheme: "re", phonemes: [r, eo]}
+- {grapheme: "ri", phonemes: [r, ih]}
+- {grapheme: "rao", phonemes: [r, aw]}
+- {grapheme: "rou", phonemes: [r, ow]}
+- {grapheme: "ran", phonemes: [r, a, n]}
+- {grapheme: "ren", phonemes: [r, ah, n]}
+- {grapheme: "rang", phonemes: [r, aa, ng]}
+- {grapheme: "reng", phonemes: [r, ah, ng]}
+- {grapheme: "rong", phonemes: [r, o, ng]}
+- {grapheme: "ru", phonemes: [r, u]}
+- {grapheme: "rua", phonemes: [r, oa]}
+- {grapheme: "ruo", phonemes: [r, uo]}
+- {grapheme: "rui", phonemes: [r, oe, y]}
+- {grapheme: "ruan", phonemes: [r, oa, n]}
+- {grapheme: "run", phonemes: [r, uo, n]}
+- {grapheme: "ji", phonemes: [jj, i]}
+- {grapheme: "jia", phonemes: [jj, ia]}
+- {grapheme: "jiao", phonemes: [jj, ia, w]}
+- {grapheme: "jie", phonemes: [jj, ie]}
+- {grapheme: "jiu", phonemes: [jj, io, w]}
+- {grapheme: "jian", phonemes: [jj, ie, n]}
+- {grapheme: "jin", phonemes: [jj, i, n]}
+- {grapheme: "jiang", phonemes: [jj, ia, ng]}
+- {grapheme: "jing", phonemes: [jj, i, ng]}
+- {grapheme: "jiong", phonemes: [jj, o, ng]}
+- {grapheme: "ju", phonemes: [jj, eu]}
+- {grapheme: "jv", phonemes: [jj, eu]}
+- {grapheme: "jyu", phonemes: [jj, eu]}
+- {grapheme: "jü", phonemes: [jj, eu]}
+- {grapheme: "jue", phonemes: [jj, oe]}
+- {grapheme: "jve", phonemes: [jj, oe]}
+- {grapheme: "jüe", phonemes: [jj, oe]}
+- {grapheme: "jyue", phonemes: [jj, oe]}
+- {grapheme: "juan", phonemes: [jj, oe, n]}
+- {grapheme: "jvan", phonemes: [jj, oe, n]}
+- {grapheme: "jyuan", phonemes: [jj, oe, n]}
+- {grapheme: "jüan", phonemes: [jj, oe, n]}
+- {grapheme: "jun", phonemes: [jj, eu, n]}
+- {grapheme: "qi", phonemes: [t, sy, i]}
+- {grapheme: "qia", phonemes: [t, sy, ia]}
+- {grapheme: "qiao", phonemes: [t, sy, ia, w]}
+- {grapheme: "qie", phonemes: [t, sy, ie]}
+- {grapheme: "qiu", phonemes: [t, sy, io, w]}
+- {grapheme: "qian", phonemes: [t, sy, ie, n]}
+- {grapheme: "qin", phonemes: [t, sy, i, n]}
+- {grapheme: "qiang", phonemes: [t, sy, ia, ng]}
+- {grapheme: "qing", phonemes: [t, sy, i, ng]}
+- {grapheme: "qiong", phonemes: [t, sy, io, ng]}
+- {grapheme: "qu", phonemes: [t, sy, eu]}
+- {grapheme: "qv", phonemes: [t, sy, eu]}
+- {grapheme: "qyu", phonemes: [t, sy, eu]}
+- {grapheme: "qü", phonemes: [t, sy, eu]}
+- {grapheme: "que", phonemes: [t, sy, oe]}
+- {grapheme: "qve", phonemes: [t, sy, oe]}
+- {grapheme: "qyue", phonemes: [t, sy, oe]}
+- {grapheme: "qüe", phonemes: [t, sy, oe]}
+- {grapheme: "quan", phonemes: [t, sy, oe, n]}
+- {grapheme: "qvan", phonemes: [t, sy, oe, n]}
+- {grapheme: "qyuan", phonemes: [t, sy, oe, n]}
+- {grapheme: "qüan", phonemes: [t, sy, oe, n]}
+- {grapheme: "qun", phonemes: [t, sy, eu, n]}
+- {grapheme: "qvn", phonemes: [t, sy, eu, n]}
+- {grapheme: "qyun", phonemes: [t, sy, eu, n]}
+- {grapheme: "qün", phonemes: [t, sy, eu, n]}
+- {grapheme: "xi", phonemes: [sy, i]}
+- {grapheme: "xia", phonemes: [sy, ia]}
+- {grapheme: "xiao", phonemes: [sy, ia, w]}
+- {grapheme: "xie", phonemes: [sy, ie]}
+- {grapheme: "xiu", phonemes: [sy, io, w]}
+- {grapheme: "xian", phonemes: [sy, ie, n]}
+- {grapheme: "xin", phonemes: [sy, i, n]}
+- {grapheme: "xiang", phonemes: [sy, ia, ng]}
+- {grapheme: "xing", phonemes: [sy, i, ng]}
+- {grapheme: "xiong", phonemes: [sy, io, ng]}
+- {grapheme: "xu", phonemes: [sy, eu]}
+- {grapheme: "xv", phonemes: [sy, eu]}
+- {grapheme: "xyu", phonemes: [sy, eu]}
+- {grapheme: "xü", phonemes: [sy, eu]}
+- {grapheme: "xue", phonemes: [sy, oe]}
+- {grapheme: "xve", phonemes: [sy, oe]}
+- {grapheme: "xyue", phonemes: [sy, oe]}
+- {grapheme: "xüe", phonemes: [sy, oe]}
+- {grapheme: "xuan", phonemes: [sy, oe, n]}
+- {grapheme: "xvan", phonemes: [sy, oe, n]}
+- {grapheme: "xyuan", phonemes: [sy, oe, n]}
+- {grapheme: "xüan", phonemes: [sy, oe, n]}
+- {grapheme: "xun", phonemes: [sy, eu, n]}
+- {grapheme: "xvn", phonemes: [sy, eu, n]}
+- {grapheme: "xyun", phonemes: [sy, eu, n]}
+- {grapheme: "xün", phonemes: [sy, eu, n]}
+replacements:
+- {from: b, to: pp}
+- {from: d, to: tt}
+- {from: g, to: kk}
+- {from: zh, to: jh}
+- {from: j, to: jj}
+- {from: x, to: sy}
+- {from: ai, to: ay}
+- {from: ao, to: aw}
+- {from: ou, to: ow}
+- {from: i0, to: ih}
+- {from: ir, to: ih}
+- {from: e, to: eo}
+- {from: v, to: eu}
+- {from: ve, to: oe}
+- {from: ua, to: oa}
