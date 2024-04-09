@@ -17,8 +17,8 @@
 | ㅛ | io | "yo" like in "fjord" |
 | ㅠ | iu | Like English "you" |
 | ㅕ | ieo | Like "yuh" |
-| ㅘ | ua | Like "wa" as in "water" |
-| ㅞ, ㅙ, ㅚ | ue | Like "we" as in "wet" |
+| ㅘ | oa | Like "wa" as in "water" |
+| ㅞ, ㅙ, ㅚ | oe | Like "we" as in "wet" |
 | ㅟ | ui | Like English "we" |
 | ㅝ | uo | Like English "wuh" as in "what" |
 
@@ -28,7 +28,7 @@
 | :--- | :--- | :--- | :--- |
 | ㄱ  | g     | kcl | "g" as in "game". In the coda position, the consonant is unreleased, meaning your mouth preps to pronounce a "g", but never actually releases the sound. |
 | ㄲ  | kk    |     | Unaspirated "k" as in "skip" |
-| ㅋ  | k     |     | Aspirated "k" as in "cat" |
+| ㅋ  | k     |     | Aspirated "k" as in "kite" |
 | ㄷ  | d     | tcl | "d" as in "day". In the coda position, the consonant is unreleased, meaning your mouth preps to pronounce a "d", but never actually releases the sound. |
 | ㄸ  | tt    |     | Unaspirated "t" as in "stay" |
 | ㅌ  | t     |     | Aspirated "t" as in "talk" |
@@ -131,7 +131,7 @@
 | r | "race" | \[r ey s\] | 영어 "r". 모음과 비슷하며 혀끝이 입의 어느 부분에도 닿지 않아야 합니다. 혀 끝은 두 개의 앞니 근처에서 구부러지거나 일종의 'C'자 모양으로 목 뒤쪽을 향하게 할 수 있습니다. 노래할 때는 "dark" 또는 "shared" 와 같이 어미 자음으로 약하게 들리는 경우가 많습니다. |
 | s | "sale" | \[s ey l\] | ㅆ |
 | sh | "share" | \[sh eh r\] | "시", "샤", "셰"에서와 같이 "ㅅ" 등 |
-| t | "town" | \[t aw n\] | ㅆ |
+| t | "town" | \[t aw n\] | ㅌ |
 | th | "thumb" | \[th ah m\] | "ㅅ"과 비슷하지만 리스프가 굵습니다. |
 | v | "vase" | \[v ey s\] | 유성 영어 "f". 앞니가 아랫입술에 닿습니다. |
 | w | "wear" | \[w eh r\] | "와", "웨", "위", "워" 의 첫소리와 같이 |
@@ -194,6 +194,86 @@
 
   - English speakers often pronounce R-colored vowels in different ways, such as \[iy r\] instead of \[ih r\], or \[uw r\] instead of \[uh r\], but even in these cases, they should generally be written as \[ih r\] and \[uh r\] respectively. This also applies to non-rhotic accents, where the "r" sounds very weak or is missing altogether ( e.g., if "DARK" is pronounced like \[d aa k\], you still should label it \[d aa r k\] ). The only exception is when a word ends with a vowel and begins with "r", such as "be right" (\[b iy\] \[r ay t\]) or "do wrong" (\[d uw\] \[r ao ng\]), as these are not considered R-colored vowels.
 
+## 일본어 음소(Japanese Phonemes)
+
+### 모음(Vowels):
+| 가명<br>(Kana) | 음소<br>(Phoneme) |  대략적인 한글 표기법<br>(Closest Korean Equivalent) | 가장 가까운 영어 등가물<br>(Closest English Equivalent) |
+| :--- | :--- | :--- | :--- |
+| あ | a | ㅏ | Most similar to "ah" in "soft" |
+| い | i | ㅣ | "ee" as in "see" |
+| う | ux | 입모양 "ㅜ"를를 유지한 채로 "ㅡ" 발음을 내면 유사한 소리가 납니다. | Like English "ooh", but the lips are unrounded and not pursed |
+| え | e | ㅔ | "eh" like in "head" |
+| お | o | ㅗ | "o" as in "four" |
+| ん | nn | ㄱ,ㅋ,o,ㅎ의 앞에서는는 "ㅇ" / ㄴ,ㄷ,ㄹ,ㅅ,ㅈ,ㅊ,ㅌ의 앞에서는 "ㄴ" / ㅁ,ㅂ,ㅍ앞에서는 "ㅁ" 소리가 납니다. | Syllabic "n" |
+| (き)ゃ | ia | ㅑ | Like English "yah!", like an action hero |
+| (き)ゅ | iux | 입모양 "ㅜ"를를 유지한 채로 "ㅣ" + "ㅡ"를 빠르게 발음하면 유사한 소리가 납니다. | Like English "you" |
+| (き)ぇ | ie | ㅖ | Like "ye" as in "yes" |
+| (き)ょ | io | ㅛ | "yo" like in "fjord" |
+#### 선택적 모음 음소(Optional Vowel Phonemes):
+| 가명<br>(Kana) | 음소<br>(Phoneme) | 대략적인 한글 표기법<br>(Closest Korean Equivalent)  |가장 가까운 영어 등가물<br>(Closest English Equivalent) |
+| :--- | :--- | :--- | :--- |
+| くぁ | ua | "ㅜ" + "ㅏ". | Like "wa" as in "water". |
+| くぃ | ui | ㅟ | Like English "we" |
+| くぇ | ue | "ㅞ"와 비슷합니다. |
+| くぉ | wo | "ㅜ" + "ㅗ" | Like English "wo" as in "warm". |
+
+
+### 자음(Consonants):
+| 음소<br>(Phoneme) | 가명<br>(Kana) | 트랜스크립션<br>(Transcription) | 대략적인 한글 표기법<br>(Closest Korean Equivalent) |  가장 가까운 영어 등가물<br>(Closest English Equivalent) |
+| :--- | :--- | :--- | :--- | :--- |
+| k | かきくけこ | \[k a\] | ㅋ | "k" as in "kite". |
+| g | がぎぐげご | \[g a\] | ㄱ | "g" as in "game". |
+| s | さすせそ | \[s a\] | ㅆ | "s" as in "say". |
+| t | たてと | \[t a\] | ㅌ | "t" as in "talk" |
+| d | だでど | \[d a\] | ㄷ | "d" as in "day" |
+| dz | ざずぜぞ | \[dz a\] | 영어 "z" | "z" like in "zone" or "dz" like in "beds" |
+| hh | はひへほ | \[hh a\] | ㅎ | Like English "h" as in "hair". |
+| b | ばびぶべぼ | \[b a\] | ㅂ | "b" as in "best". |
+| p | ぱぴぷぺぽ | \[p a\] | ㅍ | "p" as in "pie". |
+| m | まみむめも | \[m a\] | ㅁ | "m" as in "me". |
+| y | やゆよ | \[y a\] | 야, 유, 요 | "y" as in "yell" |
+| rl | らりるれろ | \[rl a\] | ㄹ | It is pronounced similar to how Americans pronounce "tt" as in "butter", or like a Spanish "r". The sound often fluctuates between this and being pronounced like an "l" as in "light" indiscriminantly. |
+| sh | し | \[sh i\] | 시 | Like English "sh" as in "share" |
+| ch | ち | \[ch i\] | ㅊ | Like English "ch" as in "chance" |
+| ts | つ | \[ts ux\] | 영어 "ts" | Like English "ts" as in "lets" |
+| dj | じ | \[dj i\] | ㅈ | Similar to English "zh" as in "measure" or English "j" as in "just" |
+| fh | ふ | \[fh ux\] | 영어 "f" | Similar to English "f" as in "fan". Front teeth do not touch the bottom lip. |
+| w | わ | \[w a\] | 와 | Like English "w" as in "wait". |
+| v | ヴ | \[v u\] | 영어 "v" | Like English "v" as in "vase". |
+| cl | っ(か) | \[cl k a\] | 받침 ㄱ,ㄷ,ㅂ | Consonant Gemination, similar to how "k" is elongated in "bookkeeper" or "n" in "unknown". |
+
+
+### 참고 사항(Notes)
+
+  #### <ins>\[dx\] vs \[rx\] vs \[rl\]</ins>
+
+  - \[dx\], \[rx\], \[rl\]은 모두 매우 유사하지만 DB-KOR에서 다른 소리로 간주되는 데에는 몇 가지 이유가 있습니다.
+    * \[rl\]의 범위는 종종 /ɾ/에서 /l/ 음소까지 다양합니다. 한국어의 \[rx\]도 비슷하지만 문맥과 주변 음소에 더 많이 의존합니다. \[dx\]은 /ɾ/로만 발음되며 /l/로 발음되지 않습니다. 가벼운 음성 불일치 외에도 같은 음소로 병합된 경우 타이밍 모델에 문제가 발생할 수 있습니다.
+	*  또한 한국어에서는 일부 화자들이 \[rx\]를 약하게 떠는 소리로 발음하는 반면, \[rl\]은 음소적으로 그렇게 발음하는 경우가 거의 없으며 \[dx\]는 절대 그렇게 발음하지 않습니다.
+
+  - Each of these sounds are very similar, but there are a couple reasons they are considered different sounds here.
+    * \[rl\] often ranges from an /ɾ/ to /l/ indiscriminately. \[rx\] in Korean has a similar behavior, but is more dependent on context and surrounding phonemes. \[dx\] is exclusively pronounced as /ɾ/ and never as /l/. Besides the mild phonetic inconsistency, it may also cause issues with the timing model if they were merged as the same phoneme.
+	* Additionally, in Korean, some speakers pronounce \[rx\] with a mild trill, whereas \[rl\] is rarely pronounced that way phonemically, and \[dx\] is never pronounced this way.
+
+	
+  #### <ins>\[k\] & \[kk\], \[t\] & \[tt\], \[p\] & \[pp\]</ins>
+  - 일본어에서 파열음의 기술적 음소 발음은 한국어의 'ㄲ', 'ㄸ', 'ㅃ'와 가장 유사합니다. 하지만 트위터에서 @malcha_utau가 진행한 설문조사에 따르면 압도적으로 많은 한국어 사용자가 일본어로 말할 때 각각 한국어 \[ㅋ\], \[ㅌ\], \[ㅍ\]으로 발음하는 것으로 나타났습니다. 이 형식은 주로 한국어 화자가 사용하기 위해 고안되었으며 일본어 파열음의 일반적인 유연성을 고려하여 \[ㅋㅋ\], \[ㅌ\], \[ㅍ\] 음소가 일본어에 대응하는 음소를 나타내도록 결정되었습니다. 그러나 화자가 'ㄲ', 'ㄸ', 'ㅃ'의 발음을 선호하는 경우, 이러한 경우를 위한 사전도 준비되어 있으며, (여기)\[\]에서 확인할 수 있습니다.
+  
+  - In Japanese, the technical phonemic pronunciation of devoiced plosives is most similar to Korean \[kk\], \[tt\], and \[pp\]. However, a survey hosted by @malcha_utau on Twitter suggests that the overwhelming majority of Korean speakers pronounce them as their Korean \[k\], \[t\], and \[p\] respectively when speaking Japanese. Due to this format being designed primarily for use by Korean speakers, and the general flexibility of Japanese plosives, it was decided that \[k\], \[t\], and \[p\] would represent their Japanese counterparts. However, in the event that a speaker should prefer the pronunciation of \[kk\], \[tt\], and \[pp\], we have a dictionary prepared for such cases as well, which can be found (here)\[\].
+
+  #### <ins>일본어의 \[ia\], \[iux\], \[ie\], \[io\]에 대한 컨텍스트. (Context for using \[ia\], \[iux\], \[ie\], \[io\] in Japanese)</ins>
+
+  - 구개음화된 자음의 경우 대부분 각각 \[ia\], \[iux\], \[ie\], \[io\]로 표시합니다(きゃ\[k ia\], ぴゅ\[p iux\], りょ\[rl io\] 등 ). 단, 「し」, 「ち」, 「じ」, 「ぢ」가 포함된 가나는 이 규칙을 따르지 않는데, 이 경우 "i"의 음이 약하기 때문입니다. 이런 경우에는 다음과 같이 표기해야 합니다:
+    * しゃ -> \[sh a\]
+    * ちゅ -> \[ch ux\]
+    * じょ -> \[dj o\]
+    * ぢぇ -> \[dj e\]
+  
+  - Most cases of palatilized consonants are marked with \[ia\], \[iux\], \[ie\], and \[io\] respectively ( きゃ\[k ia\], ぴゅ\[p iux\], りょ\[rl io\], etc ). However, Kana containing 「し」, 「ち」, 「じ」, or 「ぢ」 do not follow this rule, as the "i" sound is weak in these cases. When you encounter this, these should be transcribed like so:
+    * しゃ -> \[sh a\]
+    * ちゅ -> \[ch ux\]
+    * じょ -> \[dj o\]
+    * ぢぇ -> \[dj e\]
 
 ## 기타 음소(Misc. Phonemes)
 
