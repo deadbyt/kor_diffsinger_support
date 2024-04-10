@@ -3,32 +3,13 @@
 symbols:
 #English
 - {symbol: a, type: vowel}
-- {symbol: aa, type: vowel}
-- {symbol: ae, type: vowel}
-- {symbol: ah, type: vowel}
-- {symbol: ao, type: vowel}
-- {symbol: aw, type: vowel}
-- {symbol: ax, type: vowel}
-- {symbol: axh, type: vowel}
-- {symbol: ay, type: vowel}
 - {symbol: e, type: vowel}
-- {symbol: eh, type: vowel}
-- {symbol: er, type: vowel}
 - {symbol: exh, type: vowel}
-- {symbol: ey, type: vowel}
-- {symbol: ih, type: vowel}
-- {symbol: iy, type: vowel}
 - {symbol: o, type: vowel}
-- {symbol: ow, type: vowel}
-- {symbol: oy, type: vowel}
-- {symbol: uh, type: vowel}
-- {symbol: uw, type: vowel}
 - {symbol: b, type: stop}
 - {symbol: ch, type: stop}
 - {symbol: cl, type: stop}
 - {symbol: d, type: stop}
-- {symbol: dh, type: stop}
-- {symbol: dx, type: stop}
 - {symbol: f, type: stop}
 - {symbol: g, type: stop}
 - {symbol: hh, type: stop}
@@ -44,13 +25,9 @@ symbols:
 - {symbol: s, type: stop}
 - {symbol: sh, type: stop}
 - {symbol: t, type: stop}
-- {symbol: th, type: stop}
-- {symbol: v, type: stop}
 - {symbol: vf, type: stop}
 - {symbol: w, type: stop}
 - {symbol: y, type: stop}
-- {symbol: z, type: stop}
-- {symbol: zh, type: stop}
 #Korean
 - {symbol: i, type: vowel}
 - {symbol: u, type: vowel}
@@ -2484,7 +2461,7 @@ entries:
 - {grapheme: "うぅ", phonemes: [w, eu]}
 - {grapheme: "うぇ", phonemes: [w, e]}
 - {grapheme: "うぉ", phonemes: [w, o]}
-- {grapheme: "え", phonemes: [eh]}
+- {grapheme: "え", phonemes: [e]}
 - {grapheme: "お", phonemes: [o]}
 - {grapheme: "か", phonemes: [k, a]}
 - {grapheme: "が", phonemes: [g, a]}
@@ -2517,12 +2494,12 @@ entries:
 - {grapheme: "ご", phonemes: [g, o]}
 - {grapheme: "さ", phonemes: [s, a]}
 - {grapheme: "ざ", phonemes: [jh, a]}
-- {grapheme: "し", phonemes: [sy, i]}
-- {grapheme: "しぃ", phonemes: [s, i]}
-- {grapheme: "しぇ", phonemes: [sy, e]}
-- {grapheme: "しゃ", phonemes: [sy, a]}
-- {grapheme: "しゅ", phonemes: [sy, eu]}
-- {grapheme: "しょ", phonemes: [sy, o]}
+- {grapheme: "し", phonemes: [sh, i]}
+- {grapheme: "しぃ", phonemes: [sh, i]}
+- {grapheme: "しぇ", phonemes: [sh, e]}
+- {grapheme: "しゃ", phonemes: [sh, a]}
+- {grapheme: "しゅ", phonemes: [sh, eu]}
+- {grapheme: "しょ", phonemes: [sh, o]}
 - {grapheme: "じ", phonemes: [jh, i]}
 - {grapheme: "じぇ", phonemes: [jh, ie]}
 - {grapheme: "じゃ", phonemes: [jh, ia]}
@@ -2656,7 +2633,7 @@ entries:
 - {grapheme: "うぅ・", phonemes: [w, eu, q]}
 - {grapheme: "うぇ・", phonemes: [w, e, q]}
 - {grapheme: "うぉ・", phonemes: [w, o, q]}
-- {grapheme: "え・", phonemes: [eh, q]}
+- {grapheme: "え・", phonemes: [e, q]}
 - {grapheme: "お・", phonemes: [o, q]}
 - {grapheme: "か・", phonemes: [k, a, q]}
 - {grapheme: "が・", phonemes: [g, a, q]}
@@ -2820,7 +2797,7 @@ entries:
 - {grapheme: "・あ", phonemes: [q, a]}
 - {grapheme: "・い", phonemes: [q, i]}
 - {grapheme: "・う", phonemes: [q, eu]}
-- {grapheme: "・え", phonemes: [q, eh]}
+- {grapheme: "・え", phonemes: [q, e]}
 - {grapheme: "・お", phonemes: [q, o]}
 - {grapheme: "・を", phonemes: [q, o]}
 - {grapheme: "・ん", phonemes: [q, n]}
@@ -2994,7 +2971,7 @@ entries:
 - {grapheme: "うぅっ", phonemes: [w, eu, cl]}
 - {grapheme: "うぇっ", phonemes: [w, e, cl]}
 - {grapheme: "うぉっ", phonemes: [w, o, cl]}
-- {grapheme: "えっ", phonemes: [eh, cl]}
+- {grapheme: "えっ", phonemes: [e, cl]}
 - {grapheme: "おっ", phonemes: [o, cl]}
 - {grapheme: "かっ", phonemes: [k, a, cl]}
 - {grapheme: "がっ", phonemes: [g, a, cl]}
@@ -3027,12 +3004,12 @@ entries:
 - {grapheme: "ごっ", phonemes: [g, o, cl]}
 - {grapheme: "さっ", phonemes: [s, a, cl]}
 - {grapheme: "ざっ", phonemes: [jh, a, cl]}
-- {grapheme: "しっ", phonemes: [sy, i, cl]}
-- {grapheme: "しぃっ", phonemes: [s, i, cl]}
-- {grapheme: "しぇっ", phonemes: [sy, e, cl]}
-- {grapheme: "しゃっ", phonemes: [sy, a, cl]}
-- {grapheme: "しゅっ", phonemes: [sy, eu, cl]}
-- {grapheme: "しょっ", phonemes: [sy, o, cl]}
+- {grapheme: "しっ", phonemes: [sh, i, cl]}
+- {grapheme: "しぃっ", phonemes: [sh, i, cl]}
+- {grapheme: "しぇっ", phonemes: [sh, e, cl]}
+- {grapheme: "しゃっ", phonemes: [sh, a, cl]}
+- {grapheme: "しゅっ", phonemes: [sh, eu, cl]}
+- {grapheme: "しょっ", phonemes: [sh, o, cl]}
 - {grapheme: "じっ", phonemes: [jh, i, cl]}
 - {grapheme: "じぇっ", phonemes: [jh, ie, cl]}
 - {grapheme: "じゃっ", phonemes: [jh, ia, cl]}

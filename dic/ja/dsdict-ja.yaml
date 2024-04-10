@@ -69,8 +69,8 @@ symbols:
 - {symbol: r, type: stop}
 - {symbol: th, type: stop}
 - {symbol: v, type: stop}
-- {symbol: z, type: stop}
-- {symbol: zh, type: stop}
+- {symbol: dz, type: stop}
+- {symbol: dzh, type: stop}
 - {symbol: dx, type: stop}
 - {symbol: axh, type: vowel}
 - {symbol: exh, type: vowel}
@@ -862,11 +862,11 @@ entries:
 - {grapheme: "shu", phonemes: [sh, ux]}
 - {grapheme: "she", phonemes: [sh, e]}
 - {grapheme: "sho", phonemes: [sh, o]}
-- {grapheme: "za", phonemes: [z, a]}
-- {grapheme: "zi", phonemes: [z, i]}
-- {grapheme: "zu", phonemes: [z, ux]}
-- {grapheme: "ze", phonemes: [z, e]}
-- {grapheme: "zo", phonemes: [z, o]}
+- {grapheme: "za", phonemes: [dz, a]}
+- {grapheme: "zi", phonemes: [dz, i]}
+- {grapheme: "zu", phonemes: [dz, ux]}
+- {grapheme: "ze", phonemes: [dz, e]}
+- {grapheme: "zo", phonemes: [dz, o]}
 - {grapheme: "ja", phonemes: [dj, a]}
 - {grapheme: "ji", phonemes: [dj, i]}
 - {grapheme: "ju", phonemes: [dj, ux]}
@@ -1040,11 +1040,11 @@ entries:
 - {grapheme: "shu'", phonemes: [sh, ux, q]}
 - {grapheme: "she'", phonemes: [sh, e, q]}
 - {grapheme: "sho'", phonemes: [sh, o, q]}
-- {grapheme: "za'", phonemes: [z, a, q]}
-- {grapheme: "zi'", phonemes: [z, i, q]}
-- {grapheme: "zu'", phonemes: [z, ux, q]}
-- {grapheme: "ze'", phonemes: [z, e, q]}
-- {grapheme: "zo'", phonemes: [z, o, q]}
+- {grapheme: "za'", phonemes: [dz, a, q]}
+- {grapheme: "zi'", phonemes: [dz, i, q]}
+- {grapheme: "zu'", phonemes: [dz, ux, q]}
+- {grapheme: "ze'", phonemes: [dz, e, q]}
+- {grapheme: "zo'", phonemes: [dz, o, q]}
 - {grapheme: "ja'", phonemes: [dj, a, q]}
 - {grapheme: "ji'", phonemes: [dj, i, q]}
 - {grapheme: "ju'", phonemes: [dj, ux, q]}
@@ -1215,11 +1215,11 @@ entries:
 - {grapheme: "sshu", phonemes: [cl, sh, ux]}
 - {grapheme: "sshe", phonemes: [cl, sh, e]}
 - {grapheme: "ssho", phonemes: [cl, sh, o]}
-- {grapheme: "zza", phonemes: [cl, z, a]}
-- {grapheme: "zzi", phonemes: [cl, z, i]}
-- {grapheme: "zzu", phonemes: [cl, z, ux]}
-- {grapheme: "zze", phonemes: [cl, z, e]}
-- {grapheme: "zzo", phonemes: [cl, z, o]}
+- {grapheme: "zza", phonemes: [cl, dz, a]}
+- {grapheme: "zzi", phonemes: [cl, dz, i]}
+- {grapheme: "zzu", phonemes: [cl, dz, ux]}
+- {grapheme: "zze", phonemes: [cl, dz, e]}
+- {grapheme: "zzo", phonemes: [cl, dz, o]}
 - {grapheme: "jja", phonemes: [cl, dj, a]}
 - {grapheme: "jji", phonemes: [cl, dj, i]}
 - {grapheme: "jju", phonemes: [cl, dj, ux]}
@@ -1358,4 +1358,4 @@ replacements:
 - {from: f, to: fh}
 - {from: j, to: dj}
 - {from: N, to: nn}
-- {from: z, to: dz}
+- {from: dz, to: dz}
