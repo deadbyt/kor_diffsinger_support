@@ -214,7 +214,7 @@
 | :--- | :--- | :--- | :--- |
 | くぁ | ua | "ㅜ" + "ㅏ". | Like "wa" as in "water". |
 | くぃ | ui | ㅟ | Like English "we" |
-| くぇ | ue | "ㅞ"와 비슷합니다. |
+| くぇ | ue | "ㅞ"와 비슷합니다. | Like English "weh" as in "wet" |
 | くぉ | wo | "ㅜ" + "ㅗ" | Like English "wo" as in "warm". |
 
 
